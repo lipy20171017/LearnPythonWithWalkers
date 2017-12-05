@@ -4,7 +4,7 @@
 # string =  ''' '''or """ """ or " " or ''   # type(string) ==> str
 # int = 123 or 456 or 789   # 整形
 # list = [1, 2, "a", tuple(), list(), set()]   # list 类型 java 数组。 list是可变的
-# tuple = (1, 2, "a", tuple(), list(), set()
+# tuple = (1, 2, "a", tuple(), list(), set())
 # # tuple 类型 元组， 它与list最大的区别，tuple是不可变的
 # dict = {"name": "Raymond", "age": 28, "city": "BeiJing"} or \
 # 	dict(name='Ray', age=30, city='ShangHai')
