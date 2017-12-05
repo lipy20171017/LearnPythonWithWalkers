@@ -21,7 +21,7 @@ import keyword
 
 # type and instance
 # type 用于获取, 当前输入的数据类型, 并返回
-# instance ... instance(入参, 对比数据类型)
+# isinstance ... isinstance(入参, 对比数据类型)
 
 # text = '狗子, 我要权限你!'
 # TEXT = '我从来都不变, 当然, 只是很少数的时候发生改变'
