@@ -19,7 +19,7 @@ import keyword
 # print('我要权限你!')
 
 
-# type and instance
+# type and isinstance
 # type 用于获取, 当前输入的数据类型, 并返回
 # isinstance ... isinstance(入参, 对比数据类型)
 
