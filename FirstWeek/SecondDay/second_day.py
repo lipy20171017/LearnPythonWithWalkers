@@ -64,7 +64,7 @@ True
 >>> print (next(it))   # 输出迭代器的下一个元素
 1
 list=[1,2,3,4]
-it = iter(list)    # 创建迭代器对象
+it = iter(list)    # 创建迭代器对象,字符串，列表或元组对象都可用于创建迭代器.
 for x in it:
     print (x, end=" ")
 
