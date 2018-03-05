@@ -58,7 +58,7 @@ True
 >>> g
 <generator object <genexpr> at 0x1022ef630>
 
-#迭代器
+#迭代器，迭代器有两个基本的方法：iter() 和 next()。
 >>>list=[1,2,3,4]
 >>> it = iter(list)    # 创建迭代器对象
 >>> print (next(it))   # 输出迭代器的下一个元素
