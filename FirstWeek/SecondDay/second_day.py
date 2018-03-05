@@ -54,7 +54,7 @@ True
 >>> L = [x * x for x in range(10)]     #列表解析（列表生成式、列表推导）
 >>> L
 [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
->>> g = (x * x for x in range(10))     #生成器（生成器表达式）
+>>> g = (x * x for x in range(10))     #生成器表达式
 >>> g
 <generator object <genexpr> at 0x1022ef630>
 
