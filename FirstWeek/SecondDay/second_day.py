@@ -41,10 +41,33 @@
 # print(isinstance([], list))
 
 
-# 解析 / 切片/ 取值
-# 迭代器 。
+# 切片/ 取值 / 迭代 / 列表解析（列表生成式、列表推导） /迭代器 
 
+# 这些可以直接作用于for循环的对象统称为可迭代对象：Iterable。
 # 可迭代的数据类型， str, dict, list, tuple, set
+# 可以使用isinstance()判断一个对象是否是Iterable对象。
+>>> from collections import Iterable
+>>> isinstance([],Iterable)
+True
+
+
+>>> L = [x * x for x in range(10)]     #列表解析（列表生成式、列表推导）
+>>> L
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+>>> g = (x * x for x in range(10))     #生成器（生成器表达式）
+>>> g
+<generator object <genexpr> at 0x1022ef630>
+
+#迭代器
+>>>list=[1,2,3,4]
+>>> it = iter(list)    # 创建迭代器对象
+>>> print (next(it))   # 输出迭代器的下一个元素
+1
+list=[1,2,3,4]
+it = iter(list)    # 创建迭代器对象
+for x in it:
+    print (x, end=" ")
+
 
 string = "Raymond"
 _list = ['R', 'a', 'y', 'm', 'o', 'n', 'd']
