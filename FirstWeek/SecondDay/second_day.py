@@ -100,8 +100,8 @@ print(number_list)
 deal_tuple = ("user_id", "deal_info", "create_time")
 
 number_list = list(range(11))
-# [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 1 - 10
-# [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] index : -1其实等于9
+# [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] range函数默认从0开始循环（0 - 10）
+# [0, 1, 2, 3, 4, 5, 6, 7, 8, 9，10] index : -1其实等于10
 print(number_list[-1:])
 
 print(number_list)
