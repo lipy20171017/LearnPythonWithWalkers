@@ -17,7 +17,7 @@
 # print(type('111'), 'str')
 # print(type([1, 2, 3, 4, 5, 6]), 'list')
 
-# # list() = []
+# # list = []
 # print(type(list()))
 
 # # tuple = ()
